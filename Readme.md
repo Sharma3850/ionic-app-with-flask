@@ -1,14 +1,14 @@
-Cross-Platform Weather App
+# Cross-Platform Weather App
 A simple cross-platform weather application built using Ionic Angular for the frontend and Flask for the backend. The application fetches random weather data from the Flask API and displays it on the frontend.
 
 
-Features:
+**Features:**
 Randomly generated weather data
 Cross-origin resource sharing (CORS) enabled
 Simple and clean UI with Ionic framework
 
 
-Prerequisites:
+**Prerequisites:**
 Node.js and npm
 Python 
 Ionic CLI
@@ -16,7 +16,7 @@ Flask
 Frontend (Ionic Angular)
 
 
-instructions to run the app
+**instructions to run the app**
 Serve the Ionic application: ionic serve
 
 Backend (Flask)
