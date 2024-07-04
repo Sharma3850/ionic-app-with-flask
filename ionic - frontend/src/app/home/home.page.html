@@ -1,0 +1,51 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Weather
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Weather</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-list>
+      <ion-item>
+        <ion-label>Temperature</ion-label>
+        <ion-badge color="primary">{{ updatesData.Temperature }}°C</ion-badge>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label>Followers</ion-label>
+        <ion-badge color="primary">{{ updatesData.Followers }}k</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Likes</ion-label>
+        <ion-badge color="secondary">{{ updatesData.Likes }}k</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Stars</ion-label>
+        <ion-badge color="tertiary">{{ updatesData.Stars }}k</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Completed</ion-label>
+        <ion-badge color="success">{{ updatesData.Completed }}k</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Warnings</ion-label>
+        <ion-badge color="warning">{{ updatesData.Warnings }}k</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>Notifications</ion-label>
+        <ion-badge color="danger">{{ updatesData.Notifications }}k</ion-badge>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <!-- <ion-button (click)="onSubmit()">submit</ion-button> -->
+</ion-content>
